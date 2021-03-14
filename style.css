@@ -1,0 +1,65 @@
+/*style de fond de toute la page*/
+body {
+  background-image: url(solo-leveling-0319-1024x576-1.jpg);
+
+  background-size: 100%;
+  background-attachment: fixed;
+}
+/*barre de navigation*/
+#navbar {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(43, 15, 88, 0.801);
+  display: flex;
+  justify-content: center;
+}
+#navbar li {
+  display: inline;
+  list-style: none;
+}
+#navbar a {
+  display: inline;
+  color: #f2f2f2;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#navbar .icon {
+  display: none;
+}
+/*corp de texte*/
+#corp {
+  display: inline-flex;
+  margin: 10%;
+}
+.corp {
+  background-color: rgba(255, 255, 255, 0.575);
+  padding: 30px;
+}
+/*sommaire*/
+#somm {
+  margin-left: 10%;
+}
+/*image de description de la présentation*/
+#imgcaract {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 10%;
+  justify-content: center;
+}
+/*page d'acceuil*/
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+/*grand titre*/
+.gt {
+  font-size: 70px;
+}
+#cent {
+  position: fixed;margin-top: 110px;
+}
